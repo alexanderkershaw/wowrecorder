@@ -1,0 +1,24 @@
+{
+  "name": "wow-recorder",
+  "version": "1.0.0",
+  "description": "WoW Recorder",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexanderkershaw/wowrecorder.git"
+  },
+  "author": "Alex Kershaw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexanderkershaw/wowrecorder/issues"
+  },
+  "homepage": "https://github.com/alexanderkershaw/wowrecorder#readme",
+  "dependencies": {
+    "electron": "^18.2.0",
+    "ffmpeg-static-electron": "^2.0.3",
+    "fluent-ffmpeg": "^2.1.2"
+  }
+}
